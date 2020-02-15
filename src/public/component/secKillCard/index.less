@@ -1,0 +1,43 @@
+.sec-kill-card{
+    padding: 2px;
+    margin: 2px 0px;
+    
+    .sec-kill-card-img{
+        height: 100px;
+        background-color: burlywood;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec-kill-card-content{
+        padding-left: 12px;
+        .sec-kill-card-content-title{}
+        .sec-kill-card-content-count{}
+        .sec-kill-card-content-price{
+            display: flex;
+            flex-direction: row;
+            align-items:flex-end;
+            justify-content: center;
+            flex-grow: 1;
+            .sec-kill-card-content-price-wrap{
+                flex:3;
+            }
+            .sec-kill-card-content-price-sec{}
+            .sec-kill-card-content-price-org{
+                color:gray;
+                font-size: 12px;
+                text-decoration-line:line-through;
+                padding-left: 12px;
+            }
+            .sec-kill-card-content-sec-btn{
+                flex:1;
+                text-align: right;
+            }
+        }
+    }
+
+    .ant-card-body {
+        padding: 12px;
+        zoom: 1;
+    }
+}
