@@ -13,7 +13,7 @@ export default class SecKillComponent extends React.Component{
         let SecKillArr = [];
         for(let i in this.state.goodsList){
             let item = this.state.goodsList[i];
-            SecKillArr.push(<SecKillCardComponent item={item}/>);
+            SecKillArr.push(<SecKillCardComponent item={item} key={item.goodid} type={i%3}/>);
         }
         return (
             <div className="sec-kill">
